@@ -124,9 +124,9 @@ canvas[resize] {
 }
 
 .content {
-	position: absolute;
+	position: relative;
 	overflow: hidden;
-	margin-bottom: 100vh;
+	/*margin-bottom: 100vh;*/
 	/*overflow-y: auto;*/
 	width: 150vw;
 	background-color: white;
@@ -226,6 +226,14 @@ canvas[resize] {
 	width: 100%;
 	padding: 6px 0px 4px 10px;
 	background-color: #222222;
+}
+
+.footer-holder {
+	width: 100vw;
+	height: 100vh;
+	/*display: block;*/
+	position: absolute;
+	/*background-color: green;*/
 }
 
 .footer {
