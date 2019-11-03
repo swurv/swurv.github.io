@@ -374,6 +374,7 @@ figure {
 	width: 100vw;
 	background-color: #ddddde;
 	left: 0 !important;
+	overflow: hidden;
 }
 
 #half1 {
