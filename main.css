@@ -137,7 +137,7 @@ canvas[resize] {
 }
 
 #half1 {
-	overflow: auto;
+	overflow: hidden;
 	display: inline-block;
 	flex: 1 0 0;
 	background-color: black;
@@ -146,7 +146,7 @@ canvas[resize] {
 }
 
 #half2 {
-	overflow: auto;
+	overflow: hidden;
 	display: inline-block;
 	flex: 1 0 0;
 	background-color: black;
@@ -493,8 +493,8 @@ h1 {
 }
 
 .about h1 {
-	font-size: 35px;
-	line-height: 44px;
+	font-size: 25px;
+	line-height: 35px;
 	letter-spacing: .5px;
 }
 
