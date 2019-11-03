@@ -171,6 +171,7 @@ canvas[resize] {
 	flex-direction: column;
 	justify-content: space-between;
 	height: 100%;
+	overflow: hidden;
 	/*margin: auto 0;*/
 }
 
@@ -184,6 +185,7 @@ canvas[resize] {
 
 .essay {
 	background-color: #4242ff;
+	overflow: hidden;
 }
 
 .essay img {
