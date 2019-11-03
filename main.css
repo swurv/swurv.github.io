@@ -123,8 +123,9 @@ canvas[resize] {
 
 .content {
 	position: absolute;
+	overflow: hidden;
 	margin-bottom: 100vh;
-	overflow-y: auto;
+	/*overflow-y: auto;*/
 	width: 150vw;
 	background-color: white;
 	display: flex;
