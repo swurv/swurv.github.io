@@ -53,29 +53,45 @@ $(document).ready(function(){
 	// var scrollHeight = $(document).height();
 	// var scrollPosition = $(window).height() + $(window).scrollTop();
 	// if ((scrollHeight - scrollPosition) / scrollHeight < 400) {
-
-
 $(document).ready(function(){
 
-$(document.body).on('touchmove', onScroll); // for mobile
-$(window).on('scroll', onScroll);
-
-function onScroll(){
-	// var scroll = $(window).scrollTop();
-
-	var scrollHeight = $(document).height();
-	var scrollPosition = $(window).height() + $(window).scrollTop();
-	if ((scrollHeight - scrollPosition) === 0) {
-	    $(".title2 h1").css("color", "#aea79f");
+window.onscroll = function() {
+  var d = document.documentElement;
+  var offset = d.scrollTop + window.innerHeight;
+  var height = d.offsetHeight;
+  if (offset >= height) {
+    	$(".title2 h1").css("color", "#aea79f");
 	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
 	    }
 	    else {
 	    $(".title2 h1").css("color", "black");
 	    $(".title2 h1").css("-webkit-text-stroke", "2px black");	
-	    }
-    }
-
+	}
+  }
 });
+
+
+// $(document).ready(function(){
+
+// $(document.body).on('touchmove', onScroll); // for mobile
+// $(window).on('scroll', onScroll);
+
+// function onScroll(){
+// 	// var scroll = $(window).scrollTop();
+
+// 	var scrollHeight = $(document).height();
+// 	var scrollPosition = $(window).height() + $(window).scrollTop();
+// 	if ((scrollHeight - scrollPosition) < 400) {
+// 	    $(".title2 h1").css("color", "#aea79f");
+// 	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
+// 	    }
+// 	    else {
+// 	    $(".title2 h1").css("color", "black");
+// 	    $(".title2 h1").css("-webkit-text-stroke", "2px black");	
+// 	    }
+//     }
+
+// });
 </script>
 
 </head>
