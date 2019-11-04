@@ -405,6 +405,10 @@ h1 {
 	line-height: 85px;
 }
 
+.artwork h1 {
+	margin: 10vw 10vw 5vw 5vw;
+}
+
 .about {
 	padding: 160px 80px;
 }
@@ -481,7 +485,7 @@ h4 {
 .artwork h1 {
 	font-size: 65px;
 	line-height: 65px;
-	margin: 10vw 10vw 150px 5vw;
+	margin: 10vw 10vw 5vw 5vw;
 }
 
 .about h1 {
@@ -519,8 +523,8 @@ h3 {
 }
 
 .artwork h1 {
-	font-size: 50px;
-	line-height: 50px;
+	font-size: 40px;
+	line-height: 40px;
 	-webkit-text-stroke: 2px black;
 	margin-bottom: 5vh;
 }
@@ -544,8 +548,8 @@ h3 {
 @media (max-width: 400px) {
 
 .artwork h1 {
-	font-size: 35px;
-	line-height: 35px;
+	font-size: 40px;
+	line-height: 40px;
 	-webkit-text-stroke: 2px black;
 }
 
@@ -571,6 +575,11 @@ h3 {
 h1 {
 	font-size: 35px;
 	line-height: 35px;
+}
+
+.artwork h1 {
+	font-size: 30px;
+	line-height: 30px;
 }
 
 .essay-image-aside {
