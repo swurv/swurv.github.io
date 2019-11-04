@@ -230,7 +230,7 @@ canvas[resize] {
 
 .footer-holder {
 	width: 100vw;
-	height: 50vh;
+	height: 75vh;
 	/*display: block;*/
 	/*z-index: 1;*/
 	position: absolute;
@@ -522,7 +522,7 @@ h3 {
 	font-size: 35px;
 	line-height: 35px;
 	-webkit-text-stroke: 1px black;
-	margin-bottom: 0px;
+	margin-bottom: 5vh;
 }
 
 .about h1 {
