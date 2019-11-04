@@ -48,6 +48,13 @@ $(document).ready(function(){
 // 	    }
 //     })
 // });
+
+
+	// var scrollHeight = $(document).height();
+	// var scrollPosition = $(window).height() + $(window).scrollTop();
+	// if ((scrollHeight - scrollPosition) / scrollHeight < 400) {
+
+
 $(document).ready(function(){
 
 $(document.body).on('touchmove', onScroll); // for mobile
@@ -56,7 +63,9 @@ $(window).on('scroll', onScroll);
 function onScroll(){
 	// var scroll = $(window).scrollTop();
 
-		if( $("html, body").scrollTop() > 0) {
+	var scrollHeight = $(document).height();
+	var scrollPosition = $(window).height() + $(window).scrollTop();
+	if ((scrollHeight - scrollPosition) < 400) {
 	    $(".title2 h1").css("color", "#aea79f");
 	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
 	    }
