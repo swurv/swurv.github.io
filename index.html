@@ -65,7 +65,7 @@ function onScroll(){
 
 	var scrollHeight = $(document).height();
 	var scrollPosition = $(window).height() + $(window).scrollTop();
-	if ((scrollHeight - scrollPosition) < 400) {
+	if ((scrollHeight - scrollPosition) === 0) {
 	    $(".title2 h1").css("color", "#aea79f");
 	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
 	    }
