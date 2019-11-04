@@ -280,7 +280,7 @@ h2 {
 	max-width: 750px;
 	padding: 0 5vw;
 	-webkit-text-stroke: 1px black;
-	margin-bottom: 35px;
+	margin-bottom: 32px;
 }
 
 h3 {
@@ -504,6 +504,12 @@ h4 {
 h1 {
 	font-size: 50px;
 	line-height: 50px;
+}
+
+h2 {
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 28px;
 }
 
 .artwork h1 {
