@@ -536,9 +536,9 @@ h2 {
 @media (max-width: 400px) {
 
 .artwork h1 {
-	font-size: 30px;
-	line-height: 30px;
-	-webkit-text-stroke: 1px black;
+	font-size: 35px;
+	line-height: 35px;
+	-webkit-text-stroke: .5px black;
 }
 
 .about {
