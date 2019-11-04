@@ -104,7 +104,7 @@ canvas[resize] {
 	width: 100vw;
 	background-color: black;
 	padding: 200px 100px;
-	z-index: 3;
+	z-index: 99;
 }
 
 .about h1 {
@@ -136,7 +136,7 @@ canvas[resize] {
 		-o-transition: all 1s ease;
 		-ms-transition: all 1s ease;
 		transition: all 1s ease;
-	z-index: 4;
+	z-index: 99;
 }
 
 #half1 {
@@ -230,10 +230,11 @@ canvas[resize] {
 
 .footer-holder {
 	width: 100vw;
-	height: 100vh;
+	height: 50vh;
 	/*display: block;*/
+	/*z-index: 1;*/
 	position: absolute;
-	/*background-color: green;*/
+	background-color: black;
 }
 
 .footer {
