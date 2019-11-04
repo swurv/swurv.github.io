@@ -34,20 +34,20 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
-    $(window).scroll(function(){
-	var scroll = window.scrollY;
+// $(document).ready(function(){
+//     $(window).scroll(function(){
+// 	var scroll = window.scrollY;
 
-		if(scroll > 2000) {
-	    $(".title2 h1").css("color", "#aea79f");
-	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
-	    }
-	    else {
-	    $(".title2 h1").css("color", "black");
-	    $(".title2 h1").css("-webkit-text-stroke", "2px black");	
-	    }
-    })
-});
+// 		if(scroll > 2000) {
+// 	    $(".title2 h1").css("color", "#aea79f");
+// 	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
+// 	    }
+// 	    else {
+// 	    $(".title2 h1").css("color", "black");
+// 	    $(".title2 h1").css("-webkit-text-stroke", "2px black");	
+// 	    }
+//     })
+// });
 
 
 	// var scrollHeight = $(document).height();
@@ -73,27 +73,27 @@ $(document).ready(function(){
 // });
 
 
-// $(document).ready(function(){
+$(document).ready(function(){
 
-// $(document.body).on('touchmove', onScroll); // for mobile
-// $(window).on('scroll', onScroll);
+$(document.body).on('touchmove', onScroll); // for mobile
+$(window).on('scroll', onScroll);
 
-// function onScroll(){
-// 	// var scroll = $(window).scrollTop();
+function onScroll(){
+	// var scroll = $(window).scrollTop();
 
-// 	var scrollHeight = $(document).height();
-// 	var scrollPosition = $(window).height() + $(window).scrollTop();
-// 	if ((scrollHeight - scrollPosition) < 400) {
-// 	    $(".title2 h1").css("color", "#aea79f");
-// 	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
-// 	    }
-// 	    else {
-// 	    $(".title2 h1").css("color", "black");
-// 	    $(".title2 h1").css("-webkit-text-stroke", "2px black");	
-// 	    }
-//     }
+	var scrollHeight = $(document).height();
+	var scrollPosition = $(window).height() + $(window).scrollTop();
+	if ((scrollHeight - scrollPosition) < 400) {
+	    $(".title2 h1").css("color", "#aea79f");
+	    $(".title2 h1").css("-webkit-text-stroke", "2px #aea79f");
+	    }
+	    else {
+	    $(".title2 h1").css("color", "black");
+	    $(".title2 h1").css("-webkit-text-stroke", "2px black");	
+	    }
+    }
 
-// });
+});
 </script>
 
 </head>
@@ -187,14 +187,14 @@ $(document).ready(function(){
 				<h4>André Filipek Magaña, <i>Dora Drawing</i> (3 of 4), 2019</h4>
 			</figure>
 
-			<figure id="port">
-				<img class="art" src="assets/art/10.jpg"/>
-				<h4>André Filipek Magaña, <i>Dora Drawing</i> (4 of 4), 2019</h4>
-			</figure>
-
 			<figure id="land">
 				<img class="art" src="assets/art/11.jpg"/>
 				<h4>Militza Monteverde, <i>Cranberry Preacher</i>, 2019</h4>
+			</figure>
+
+			<figure id="port">
+				<img class="art" src="assets/art/10.jpg"/>
+				<h4>André Filipek Magaña, <i>Dora Drawing</i> (4 of 4), 2019</h4>
 			</figure>
 
 			<figure id="full">
