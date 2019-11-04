@@ -521,13 +521,13 @@ h3 {
 	font-size: 35px;
 	line-height: 35px;
 	-webkit-text-stroke: 1px black;
+	margin-bottom: 0px;
 }
 
 .about h1 {
 	font-size: 25px;
 	line-height: 35px;
 	letter-spacing: .5px;
-	margin-bottom: 0px;
 }
 
 .essay-image-aside {
@@ -574,10 +574,6 @@ h1 {
 
 .essay-image-aside {
 	width: 40%;
-}
-
-.artwork h1 {
-	fon
 }
 
 }
