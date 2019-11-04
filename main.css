@@ -115,7 +115,6 @@ canvas[resize] {
 	font-weight: 400;
 	letter-spacing: .75px;
 	-webkit-text-stroke: 1px #aea79f;
-	/*margin-bottom: 35px;*/
 }
 
 .about h2 {
@@ -126,8 +125,6 @@ canvas[resize] {
 .content {
 	position: relative;
 	overflow: hidden;
-	/*margin-bottom: 100vh;*/
-	/*overflow-y: auto;*/
 	width: 150vw;
 	background-color: white;
 	display: flex;
@@ -230,11 +227,8 @@ canvas[resize] {
 
 .footer-holder {
 	width: 100vw;
-	height: 75vh;
-	/*display: block;*/
-	/*z-index: 1;*/
+	height: 100vh;
 	position: absolute;
-	background-color: black;
 }
 
 .footer {
@@ -407,6 +401,12 @@ h1 {
 
 .artwork h1 {
 	margin: 10vw 10vw 5vw 5vw;
+}
+
+.footer-holder {
+	width: 100vw;
+	height: 75vh;
+	background-color: black;
 }
 
 .about {
